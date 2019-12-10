@@ -7,4 +7,5 @@ promises have two parts:
 2 handling of promises
 Basic blue print of promises
 new Promise( /* executor */ function(resolve, reject) { ... } );
+The executing function(executor) accepts two parameters resolve and reject which in turn are callback functions. Promises are used for handling asynchronous operations also called blocking code, examples of which are DB, I/O or API calls, which are carried out by the executor function. Once that completes it either calls resolve on success or reject function on error.
 how to use async and await
