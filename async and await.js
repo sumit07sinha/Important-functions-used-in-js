@@ -6,7 +6,7 @@ async function firstAsync() {
 }
 
 firstAsync().then(alert); // 27
-it will give output as 27, which means that promise was returned, otherwise .then() method simply won't be possible
+/*it will give output as 27, which means that promise was returned, otherwise .then() method simply won't be possible*/
 
 /*Await
 The await operator is used to wait for a Promise. It can be used inside an Async block only.
