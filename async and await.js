@@ -26,4 +26,7 @@ async function firstAsync() {
 };
 firstAsync();
 /* Async and await executes the function sequentially, this consumes more time,  having parallel execution is much much faster.*/
-/*this creates the need of promise.all()*/
+/*this creates the need of promise.all()
+The Promise.all() method returns a single Promise that resolves when all of the promises passed as 
+an iterable have resolved or when the iterable contains no promises. 
+It rejects with the reason of the first promise that rejects.*/
