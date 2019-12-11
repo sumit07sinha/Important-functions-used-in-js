@@ -25,3 +25,5 @@ async function firstAsync() {
     }
 };
 firstAsync();
+/* Async and await executes the function sequentially, this consumes more time,  having parallel execution is much much faster.*/
+/*this creates the need of promise.all()*/
