@@ -12,6 +12,7 @@ firstAsync().then(alert); // 27
 The await operator is used to wait for a Promise. It can be used inside an Async block only.
 The keyword Await makes JavaScript wait until the promise returns a result. 
 It has to be noted that it only makes the async function block wait and not the whole program execution.*/
+
 async function firstAsync() {
     let promise = new Promise((res, rej) => {
         setTimeout(() => res("Now it's done!"), 1000)
