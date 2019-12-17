@@ -15,7 +15,7 @@ It has to be noted that it only makes the async function block wait and not the 
 
 async function firstAsync() {
     let promise = new Promise((res, rej) => {
-        setTimeout(() => res("Now it's done!"), 1000)
+        setTimeout(() => res("Now it's done!"), 2000)
     });
 
     // wait until the promise returns us a value
