@@ -35,4 +35,5 @@ console.log(company.name);
 //   }
 // });
 const canDrink= ages.filter (age =>age>21);
+const companies= companies.filter (company => company.category == retail);
 
