@@ -13,3 +13,10 @@ The variable within the expression can not be accessed from outside it.*/
 })();
 // Variable aName is not accessible from the outside scope
 aName // throws "Uncaught ReferenceError: aName is not defined"
+//Assigning the IIFE to a variable stores the function's return value, not the function definition itself.
+var result = (function () {
+    var name = "Barry"; 
+    return name; 
+})(); 
+// Immediately creates the output: 
+result; // "Barry"
