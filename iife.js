@@ -3,7 +3,8 @@ var name = 'sumit'; // it's not recommended to define variable in window scope*/
 /*do some stuffs*/
 (function() {
 var name="Sumit";
-})(); // it's always recommended to define a variable in the function scope not in the global scope (window scope).
+})(); // it's always recommended to define a variable in the function scope not in the global scope (window scope). 
+//IIFE is basically used to avoid creation of global variable and global function with a name that may be existing in the global library, in that case we use iife to invoke the function there in the block scope only.
 
 
 /*The function becomes a function expression which is immediately executed. 
