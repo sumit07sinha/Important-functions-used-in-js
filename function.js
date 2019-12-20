@@ -14,7 +14,7 @@ var b= 20;
 };
 add();
 
-// merhod 3
+// method 3
  var myObj={};
 myObj.add = function{
   var a= 10;
@@ -22,5 +22,7 @@ var b= 20;
   console.log(a+b);
 };
 myObj.add();
+//method 4
+new foo();
 
 
