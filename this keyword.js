@@ -16,11 +16,12 @@ Note that this is not a variable. It is a keyword. You cannot change the value o
 
 <script>
 // Constructor function for Person objects
-function Person(first, last, age) {
+function Person(first, last, age, eye) {
   this.firstName = first;
   this.lastName = last;
   this.age = age;
   this.eyeColor = eye;
+  
 }
 
 // Create a Person object
