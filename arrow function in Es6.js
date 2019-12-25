@@ -8,7 +8,7 @@ sayHello(Sumit)*/
 sayHello= (name) => {return 'Hello' +name};
 sayHello(Sumit);
 
-// IIFE
+// IIFE- Immediately invoked function expression
 
 // (function sayHello{
 //     return 'Hello'+ name;
