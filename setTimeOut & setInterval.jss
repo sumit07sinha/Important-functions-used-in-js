@@ -2,7 +2,7 @@
 
 It waits for 2000 milliseconds, and then runs the callback function alert(‘Hello’):*/
 
-setTimeout(function() { alert('Hello');}, 2000);
+setTimeout(function() { alert('Hello');}, 3000);
 
 /*setInterval(function, duration) − This function calls function after every duration milliseconds. This goes for unlimited times. Let’s see an example:
 
