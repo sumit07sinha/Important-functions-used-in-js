@@ -1,9 +1,9 @@
 # Important-functions-used-in-js
 - Promise
-- this keyword
-- spread operator
-- arrow function
--JAva script is a synchronous programming language but because of call back functions we can make it as asynchronous programming language.
+- This keyword
+- Spread operator
+- Arrow function
+- JAva script is a synchronous programming language but because of call back functions we can make it as asynchronous programming language.
 Promiseis like real life promises which we make in day to day life.The promise object shows the completion of an asynchronous operations and it's resulting values.
 promises have two parts:
 - Creation of promises
