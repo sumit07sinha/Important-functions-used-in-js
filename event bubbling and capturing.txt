@@ -11,4 +11,4 @@ for the grandfather LI and so on, going all the way up through all the elementâ€
 
 - From the window to the event target parent: this is the capture phase
 - The event target itself: this is the target phase
-- From the event target parent back to the window: the bubble phase
+- From the event target parent back to the window: the bubble phase.
