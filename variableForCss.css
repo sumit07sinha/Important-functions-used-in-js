@@ -2,5 +2,5 @@
 --main-bg-color:coral;
 }
 #div1{
-
+background-color: var(--main-bg-color);
 }
