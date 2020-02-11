@@ -10,3 +10,8 @@ console.log(arr.map(multiplier));
 let arr= new Array(100);
 let val= arr.fill(1).map(Math.random);
 console.log(val); 
+/*array. reduce 
+using  it for finding max element in an array*/\
+let vals=[2,4,8,5,7];
+let maxVal= vals.reduce((a,b)=>a>b?a:b);
+console.log(maxVal);//8
