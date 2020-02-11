@@ -20,3 +20,7 @@ using  it for finding max element in an array*/\
     let vals=[2,4,8,5,7];
     let maxVal= vals.filter(x=>x>2);
     console.log(maxVal);
+//for a string
+    let sentence= "I am a student";
+    let words= sentence.split(/\W+\).filter(word=>word.length>3);
+    console.log(words); // student
