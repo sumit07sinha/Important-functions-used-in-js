@@ -4,5 +4,9 @@
 let arr=[2,4,6];
 let multiplier=(x)=>{
 return x*2;
-}
+} // output will be [4,8,12]
 console.log(arr.map(multiplier));
+//array.fill used to fill empty array.
+let arr= new Array(100);
+let val= arr.fill(1).map(Math.random);
+console.log(val); 
