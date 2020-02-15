@@ -8,7 +8,6 @@ const student = {
     lastname: 'Sinha',
     country: 'India'
 };
-
 // Object Destructuring
 const { firstname, lastname, country } = student;
 
