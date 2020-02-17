@@ -14,8 +14,13 @@ The pop() method removes the last element from an array:*/
 
 let fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.pop(); //["Banana", "Orange", "Apple"]
+//The pop() method returns the value that was "popped out":
+let x= fruits.pop(); // "Mango"
+
 
 //The push() method adds a new element to an array (at the end):
 
 let fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.push("Grapes"); //["Banana", "Orange", "Apple","Mango","Grapes"]
+//The push() method returns the new array length:
+let x= fruits.push("Grapes"); // x is 5
