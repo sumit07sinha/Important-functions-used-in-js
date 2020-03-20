@@ -6,6 +6,7 @@ Blanket term for both bubbling and capturing
     ...
     <li><a href="..."><img src="..." alt=""></a>
 </ul>
+
 A click on an image does not only generate a click event for the corresponding IMG element, but also for the parent A,
 for the grandfather LI and so on, going all the way up through all the element’s ancestors, before terminating at the window object.
 
