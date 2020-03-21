@@ -6,6 +6,7 @@ async function firstAsync() {
 }
 
 firstAsync().then(alert); // 27
+
 /*it will give output as 27, which means that promise was returned, otherwise .then() method simply won't be possible*/
 
 /*Await
