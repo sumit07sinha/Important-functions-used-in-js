@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Sinha</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 style="text-align: center;"> Call, Apply, Bind & Currying</h1>
+    <script>
+            let person={
+            firstName: 'Sumit',
+            lastName: 'Sinha',
+        
+            }
+            let printName=function (age,city){
+                console.log(this.firstName + ' ' 
+                + this.lastName 
+                +' is of '+age+' from ' 
+                + city );
+            }
+            //using call method function borrowing
+            printName.call(person, 19,"Delhi");
+
+            let person2={
+                firstName: 'Sachin',
+                lastName: 'Raina',
+            }
+            //using apply method function borrowing
+            //only diff between call and apply is in apply arguments are passed as arr list
+            printName.apply(person2, [25,'Goa']);
+            //bind method
+
+            let printMyName = printName.bind(person, 19,"Delhi");
+            printMyName();
+
+            // Currying in js
+            //two ways to use currying one is by using bind method and another one is by recurssion
+            let multiply =(x,y)=>{
+                console.log(x*y);
+            }
+
+            multiply(2,3);
+            let multiplybytwo = multiply.bind(this,2);
+            multiplybytwo(8);
+            let multiplybythree = multiply.bind(this,3);
+            multiplybythree(8);
+
+            let multiplyClosure =(x)=>{
+                return function(y){
+                    console.log(x*y);
+                }
+            }
+            let multiplybyTwo = multiplyClosure(2);
+            multiplybyTwo(10);
+    </script>
+</body>
+
+</html>
